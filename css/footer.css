@@ -1,0 +1,42 @@
+.footer {
+    margin: 22px 0;
+}
+
+.footer__logo {
+    z-index: 0;
+}
+
+.footer__inner {
+    display: flex;
+}
+
+.footer__links {
+    width: 100%;
+    margin-left: 70px;
+    gap: 8px;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.footer__link {}
+
+.footer__socials {
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer__socials p {
+    align-self: center;
+}
+
+.footer__socials-telegram {
+    margin: 0 10px 0 16px;
+}
+
+
+.author {}

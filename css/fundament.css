@@ -1,0 +1,234 @@
+:root {
+    --text-main: #4B5258;
+    --text-blue: #43aaff;
+    --text-grey: #959A9D;
+}
+
+.body {
+    font-family: "Mont";
+    color: var(--text-main);
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* ================================================== */
+
+.logo {
+    display: flex;
+    align-items: end;
+    flex-shrink: 0;
+    z-index: 11;
+}
+
+.logo__img {
+    margin-right: 10px;
+}
+
+.logo__text p {
+    color: var(--text-blue);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.logo__text p:last-child {
+    color: var(--text-grey);
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.burger-icon {
+    background: transparent;
+    width: 50px;
+    height: 50px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 11;
+    align-self: end;
+}
+
+.burger-icon span {
+    position: relative;
+}
+
+.burger-icon span::after,
+.burger-icon span::before {
+    content: '';
+    position: absolute;
+}
+
+.burger-icon span,
+.burger-icon span::after,
+.burger-icon span::before {
+    display: block;
+    width: 30px;
+    height: 3px;
+    border-radius: 100px;
+    background-color: var(--text-grey);
+}
+
+.burger-icon span::before {
+    top: -10px;
+    transition: all .4s;
+}
+
+.burger-icon span::after {
+    bottom: -10px;
+    transition: all .4s;
+}
+
+.body--opened-menu .burger-icon span {
+    background: transparent;
+}
+
+.body--opened-menu .burger-icon span::after {
+    bottom: 0;
+    rotate: 45deg;
+}
+
+.body--opened-menu .burger-icon span::before {
+    top: 0;
+    rotate: -45deg;
+}
+
+.body--opened-menu .header__top-flex {
+    transform: translateY(0%);
+    visibility: visible;
+    opacity: 1;
+}
+
+/* ========================================== */
+
+.container {
+    width: 100%;
+    max-width: 1037px;
+    margin: 0 auto;
+    padding: 0 6px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1.5;
+}
+
+.title span {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.title-grey {
+    font-size: 22px;
+    color: var(--text-grey);
+    text-align: center;
+    font-weight: 700;
+}
+
+.title-alternative {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+}
+.title-alternative-grey {
+    color: var(--text-grey);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.blue-button {
+    color: white;
+    text-transform: uppercase;
+    background: var(--text-blue);
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    border-radius: 100px;
+    box-shadow: inset 0px 4px 10px 0px #ffffff4d;
+    transition: all .4s;
+}
+
+.blue-button:hover {
+    background: #259dff;
+}
+
+.yellow-button {
+    color: white;
+    text-transform: uppercase;
+    background: #FFC24D;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    border-radius: 100px;
+    box-shadow: inset 0px 4px 10px 0px #ffffff4d;
+    transition: all .4s;
+    font-size: 13px;
+}
+
+.yellow-button:hover {
+    background: #ffb01f;
+}
+
+.check {
+    grid-column: 1/-1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5vw;
+}
+
+.check label {
+    max-width: 256px;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: 0;
+    color: white;
+}
+
+.check label a {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.checkbox {
+    position: relative;
+    background: white;
+    width: 13px;
+    height: 13px;
+    border-radius: 4px;
+    border: 1.5px solid #ffdfa3;
+    flex-shrink: 0;
+    appearance: none;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.checkbox::before {
+    position: absolute;
+    content: '';
+    background: url(../media/svg/checkbox.svg) 50% 50% no-repeat;
+    inset: 0;
+    opacity: 0;
+    transition: all .4s;
+}
+
+.checkbox:hover {
+    border: 1.5px solid #ffb938;
+}
+
+.checkbox:checked {
+    background: #FFC24D;
+    border: 1.5px solid #ffb938;
+}
+
+.checkbox:checked::before {
+    opacity: 1;
+}

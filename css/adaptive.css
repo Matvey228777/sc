@@ -1,0 +1,1338 @@
+@media (max-width: 1100px) {
+    .header__hint {
+        right: 5%;
+    }
+
+    .main__benefits {
+        gap: 5px;
+    }
+
+    .main__benefit p {
+        padding: 44.74px 0 44.74px 12px;
+    }
+
+    .nav__list {
+        overflow: scroll;
+        overflow-y: hidden;
+    }
+
+    .calc__hint {
+        padding: 0 25px 0 15px;
+        right: 7vw;
+        bottom: 10.5vw;
+    }
+
+    .calc__hint-text {
+        margin: 9px 0;
+    }
+
+    .calc__hint-book {
+        width: 60px;
+        height: 88.6px;
+        margin-left: 6px;
+        align-self: center;
+    }
+
+    .calc__hint-percent {
+        display: none;
+    }
+
+    .footer__links {
+        margin-left: 4vw;
+    }
+
+    /* ============================== kinds */
+
+    .grid-kind {
+        padding: 0 3vw;
+    }
+
+    /* =========================================== results */
+
+    .slide {
+        gap: 5px;
+    }
+
+    .slide__text {
+        margin-top: 40px;
+        margin-right: 35px;
+    }
+
+    /* =========================== present */
+
+    .present__box {
+        max-width: 51vw;
+        max-height: 51vw;
+        left: 47vw;
+        top: 19vh;
+    }
+
+    /* ===================== order */
+
+    .order__van {
+        max-width: 60vw;
+    }
+}
+
+@media (max-width: 900px) {
+    .header__tel a {
+        font-size: 2vw;
+    }
+
+    .header__tel-time img {
+        margin: 0 3px 0 2px;
+        width: 1vw;
+        height: 1vw;
+    }
+
+    .header__tel-time p {
+        font-size: 1.4vw;
+    }
+
+    .header__socials {
+        justify-content: space-between;
+    }
+
+    .header__socials-text {
+        font-size: 1.4vw;
+        margin-right: 5px;
+    }
+
+    .socials__telegram {
+        margin-right: 3px;
+    }
+
+    .socials__telegram svg,
+    .socials__whatsapp svg {
+        width: 4.5vw;
+        aspect-ratio: 1;
+    }
+
+    .header__order {
+        padding: 10px 12px 11px 13px;
+        align-self: center;
+    }
+
+    .header__top-grid {
+        grid-template-columns: 210fr 197fr 275fr 200fr;
+    }
+
+    .header__hint {
+        right: 2%;
+        bottom: 26%;
+    }
+
+    .main__benefit img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 0;
+    }
+
+    .main__benefit p {
+        text-shadow: .5px .5px 10px var(--text-grey);
+    }
+
+    .calc__hero-form {
+        margin-left: 45px;
+    }
+
+    .calc__hint {
+        bottom: 4.5vw;
+    }
+
+    .footer__links {
+        grid-template-columns: .9fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 0;
+        align-items: end;
+    }
+
+    /* ============================== sect.beware */
+
+    .risk-img1,
+    .risk-img2 {
+        scale: 1;
+        left: 0;
+        transform: none;
+    }
+
+    .beware__risk-double {
+        max-height: none;
+    }
+
+    .beware__risk-text {
+        padding: 0 15px 15px 15px;
+    }
+
+    .risk-text4 {
+        padding-right: 15px;
+    }
+
+    .beware__risk-blue {
+        padding: 20px 25px 20px 20px;
+    }
+
+    /* ================================= sect.about */
+
+    .benefit-img1 {
+        transform: translate(2%, 20%);
+    }
+
+    .benefit-svg2 {
+        scale: .7;
+        right: -81px;
+    }
+
+    .benefit-img2 {
+        width: 72%;
+    }
+
+    .benefit-img3 {
+        width: 50%;
+        top: 6%;
+        left: 22%;
+    }
+
+    /* ================================= kinds */
+
+    .kinds__grid {
+        gap: 8px;
+    }
+
+    .grid-kind {
+        padding: 0 2vw;
+    }
+
+    .kind__title {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    /* ================================ services */
+
+    .services__grid {
+        gap: 8px;
+    }
+
+    .grid-service {
+        padding: 15px;
+        padding-right: 30px;
+    }
+
+    .service__img {
+        margin-right: 15px;
+    }
+
+    .service__name {
+        font-size: 12px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .service__price {
+        font-size: 14px;
+        gap: 2px;
+    }
+
+    /* ===================================== examples */
+
+    .example__tab-hint1::before,
+    .example__tab-hint2::before,
+    .example__tab-hint4::before,
+    .example__tab-hint5::before,
+    .example__tab-hint7::before,
+    .example__tab-hint8::before {
+        top: 30%;
+        left: -10px;
+    }
+
+    .example__tab-hint6::before {
+        bottom: 35%;
+    }
+
+    .example__tab-hint3::before,
+    .example__tab-hint9::before {
+        left: 38%;
+    }
+
+    .example__tab-hint1 {
+        padding: 12px 18px 12px 16px;
+    }
+
+    .example__tab-hint2 {
+        padding: 16px 9px 16px 12px;
+    }
+
+    .example__tab-hint3 {
+        top: 40%;
+        left: 12%;
+        padding: 14px 4px;
+    }
+
+    .example__tab-hint4 {
+        padding: 12px 6px 9px 11px;
+    }
+
+    .example__tab-hint5 {
+        padding: 13px 2px 13px 11px;
+    }
+
+    .example__tab-hint6 {
+        padding: 7px 0px 7px 8px;
+    }
+
+    .example__tab-hint7 {
+        padding: 13px 2px 13px 14px;
+        bottom: 7%;
+    }
+
+    .example__tab-hint8 {
+        padding: 13px 7px 13px 12px;
+    }
+
+    /* ====================================== results */
+
+    .slide {
+        height: unset;
+    }
+
+    .slide__img {
+        width: 55vw;
+    }
+
+    .slide__info:first-child {
+        margin: 12px 0 5px;
+    }
+
+    .slide__info:last-child {
+        margin: 4px 0 7px;
+    }
+
+    .fake-pagination {
+        margin-top: 20px;
+    }
+
+    /* ================================= inventory */
+
+    .inventory__hero {
+        background-size: 70vw 65vw;
+        height: 65vw;
+    }
+
+    .inventory__item {
+        padding: 3px;
+        background: #fff;
+        z-index: 2;
+        border-radius: 20px;
+        box-shadow: 0px 3px 15px 0px #0000001a;
+    }
+
+    /* ========================== present */
+
+    .main__present {
+        height: 90vw;
+    }
+
+    .present__title {
+        margin: 14vw 0 18px;
+    }
+
+    .present__item {
+        gap: 10px;
+        padding: 8px 10px 11px 11px;
+        max-width: 365px;
+    }
+
+    .present__box {
+        max-width: 46vw;
+        max-height: 46vw;
+        left: 48vw;
+        top: 29vw;
+    }
+
+    /* ======================= order */
+    
+    .order__inner {
+        padding: 24px 0 25px 15px;
+    }
+}
+
+@media (max-width: 750px) {
+    .header__top-flex {
+        position: fixed;
+        inset: 0;
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        z-index: 10;
+        font-size: 24px;
+        padding: 15vh 5vw 22vh;
+        transform: translateY(-50%);
+        opacity: 0;
+        visibility: hidden;
+
+        transition: all .4s;
+    }
+
+    .header__tel {
+        text-align: center;
+    }
+
+    .header__tel a {
+        font-size: 16px;
+    }
+
+    .header__tel-time {
+        justify-content: center;
+    }
+
+    .header__tel-time p {
+        font-size: 14px;
+    }
+
+    .header__socials {
+        justify-content: center;
+    }
+
+    .header__socials-text {
+        font-size: 16px;
+    }
+
+    .socials__telegram,
+    .socials__whatsapp {
+        align-self: center;
+        margin: 0 5px;
+    }
+
+    .socials__telegram svg,
+    .socials__whatsapp svg {
+        width: 28px;
+        aspect-ratio: 1;
+    }
+
+    .header__order {
+        padding: 21px 25px 22px 26px;
+        max-width: none;
+        margin-left: 0;
+    }
+
+    .header__order {
+        font-size: 16px;
+    }
+
+    .header__title {
+        margin: 0px auto 36px;
+    }
+
+    .header__info {
+        margin: 0px auto 51px;
+    }
+
+    .header__orders {
+        justify-content: center;
+    }
+
+    .header__hint {
+        display: none;
+    }
+
+    .header__buttons {
+        justify-content: center;
+    }
+
+    .burger-icon {
+        display: flex;
+    }
+
+    .main__benefits {
+        display: grid;
+        grid-template-columns: 1fr 1.05fr 1fr 1fr;
+    }
+
+    .main__benefit p {
+        text-shadow: none;
+    }
+
+    .main__benefit img {
+        display: none;
+    }
+
+    .benefit__svg {
+        display: none;
+    }
+
+    .calc__hero {
+        justify-content: center;
+    }
+
+    .calc__hero-form {
+        margin-left: 0;
+        margin-bottom: 30px;
+        margin-right: 160px;
+    }
+
+    .calc__hero-img {
+        display: none;
+    }
+
+    .calc__hint {
+        padding: 0px 10px 0 8px;
+        right: 1vw;
+        bottom: 10.5vw;
+    }
+
+    .calc__hint-title3 {
+        font-size: 14px;
+    }
+
+    .calc__hint-list li {
+        font-size: 12px;
+        gap: 3px;
+    }
+
+    .calc__hint-book {
+        display: none;
+    }
+
+    /* =================================== sect.beware */
+
+    .beware__risk-double {
+        gap: 15px;
+    }
+
+    .risk-text4 {
+        padding-left: 0;
+    }
+
+    /* =================================== sect.about */
+
+    .about__benefits {
+        gap: 14px;
+    }
+
+    .about__benefit-text {
+        padding: 0 20px 14px 15px;
+        margin-top: 160px;
+    }
+
+    /* ================================== kinds */
+
+    .main__kinds {
+        margin: 25px 0 60px;
+    }
+
+    .kinds__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid-kind {
+        max-width: none;
+    }
+
+    /* ================================ services */
+
+    .grid-service {
+        flex-direction: column;
+        padding: 20px 15px;
+    }
+
+    .service__img {
+        margin: 0;
+    }
+
+    .service__price {
+        justify-content: center;
+    }
+
+    /* =================================== pricelist */
+
+    .main__pricelist {
+        margin-top: 60px;
+    }
+
+    .pricelist-ico {
+        right: 20vw;
+    }
+
+    /* ==================================== example */
+
+    .example__tab-hint1::before,
+    .example__tab-hint2::before,
+    .example__tab-hint4::before,
+    .example__tab-hint5::before,
+    .example__tab-hint7::before,
+    .example__tab-hint8::before {
+        top: 25%;
+    }
+
+    .example__tab-hint {
+        font-size: 10px;
+    }
+
+    /* ============================ results */
+
+    .slide__text {
+        margin-top: 20px;
+    }
+
+    .slide__price {
+        padding: 19px 22px 20px;
+    }
+
+    /* ================================== instant */
+
+    .main__instant {
+        height: 100vw;
+        min-height: 530px;
+    }
+
+    .instant__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .instant__title-alternative-grey {
+        margin: 8px 0 20px;
+    }
+
+    .instant__title-alternative-grey,
+    .instant__title-alternative {
+        text-align: center;
+    }
+
+    .instant__socials {
+        max-width: 300px;
+    }
+
+    .instant__socials-flex {
+        justify-content: space-between;
+        gap: 6px;
+        margin: 14px 0 10px;
+    }
+
+    .instant__socials {
+        padding: 15px 20px 13px 18px;
+    }
+
+    .instant__hand {
+        display: none;
+    }
+
+    /* ===================================== inventory */
+
+    .inventory__item {
+        max-width: 150px;
+    }
+
+    .inventory__item img {
+        max-width: 75px;
+        max-height: 75px;
+    }
+
+    .inventory__item h6 {
+        font-size: 13px;
+        margin: 8px 0 3px;
+    }
+
+    .inventory__item p {
+        font-size: 12px;
+    }
+
+    /* ====================== present */
+    
+    .present__box {
+        max-width: 32vw;
+        max-height: 32vw;
+        left: 80%;
+        top: 50%;
+    }
+
+    /* =================================== order */
+
+    .main__order {
+        margin-bottom: 50px;
+    }
+
+    .order__van {
+        max-width: 55vw;
+    }
+}
+
+@media (max-width: 650px) {
+    .title-yellow {
+        font-size: 18px;
+    }
+
+    .header__title-block {
+        display: block;
+        width: 100%;
+    }
+
+    .header__title-flex {
+        font-size: 13px;
+        justify-content: center;
+    }
+
+    .header__dash {
+        display: none;
+    }
+
+    .header__yellow-button,
+    .header__blue-button {
+        padding: 30px 0;
+        font-size: 12px;
+    }
+
+    .title {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .title span {
+        font-size: 18px;
+    }
+
+    .title-grey {
+        font-size: 17px;
+    }
+
+    .calc__hero-form {
+        margin-right: 0;
+    }
+
+    .calc__hint {
+        display: none;
+    }
+
+    /* ================================ sect.beware */
+
+    .beware__inner {
+        padding-bottom: 50px;
+    }
+
+    .beware-title-grey {
+        margin-bottom: 25px;
+    }
+
+    .beware__risks {
+        gap: 12px;
+    }
+
+    .beware__risk-text {
+        margin-top: 160px;
+        padding: 0 10px 7px 9px;
+    }
+
+    .risk-text4 {
+        margin: 0;
+    }
+
+    .beware__risk-text h4 {
+        margin-bottom: 7px;
+        font-size: 15px;
+    }
+
+    .beware__risk-text p {
+        font-size: 11px;
+    }
+
+    /* ==================================== sect.about */
+
+    .about__benefit-text h4 {
+        margin-bottom: 7px;
+        font-size: 15px;
+    }
+
+    .about__benefit-text p {
+        font-size: 11px;
+    }
+
+    /* ===================================== services */
+
+    .services__title {
+        font-size: 18px;
+    }
+
+    .grid-service {
+        padding: 15px 5px;
+    }
+
+    /* ====================================== pricelist */
+
+    .pricelist__form {
+        margin-left: 29px;
+        margin-top: 19px;
+        margin-bottom: 30px;
+    }
+
+    .pricelist__title {
+        text-align: left;
+    }
+
+    /* ============================= examples */
+
+    .title-alternative {
+        font-size: 22px;
+    }
+
+    .title-alternative-grey {
+        font-size: 18px;
+        margin: 8px auto 24px;
+    }
+
+    .example__controls-item {
+        padding: 22px 0;
+    }
+
+    .example__controls-link {
+        padding: 24px 22px;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 1;
+        text-align: right;
+    }
+
+    /* =========================== order */
+
+    .order__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    .order__yellow-button {
+        margin: 18px 0 12px;
+        padding: 12px 32px 12px 32px;
+    }
+
+    .order__socials {
+        width: 100%;
+        margin: 7px 0 12px;
+        justify-content: center;
+    }
+
+    .order__tel {
+        gap: 0;
+    }
+
+    .order__tel a {
+        font-size: 17px;
+        font-weight: 700;
+    }
+
+    .order__van {
+        display: none;
+    }
+
+    /* ============================ header--page */
+
+    .header--page__text {
+        text-align: center;
+        font-size: 16px;
+        margin: 15px auto 24px; 
+    }
+}
+
+@media (max-width: 600px) {
+    .header__hero {
+        margin-top: 5vh;
+    }
+
+    .header__title {
+        margin: 0px auto 5vh;
+    }
+
+    .header__info {
+        margin: 0px auto 4vh;
+        font-size: 14px;
+        text-align: center;
+        max-width: 375px;
+    }
+
+    .header__blue-button,
+    .header__yellow-button {
+        padding: 15px 21.25px;
+    }
+
+    .header__tel {
+        margin: 0;
+    }
+
+    .header__socials {
+        margin: 0;
+    }
+
+    .header__socials-text {
+        font-size: 14px;
+    }
+
+    .header__buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__blue-button,
+    .header__yellow-button {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .header::after {
+        max-height: 14vw;
+    }
+
+    .main__benefits {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .main__benefit {
+        justify-self: center;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .main__benefit p {
+        padding: 15px 0;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .nav__link {
+        font-size: 12px;
+    }
+
+    .calc__hero-form {
+        padding: 0 5px;
+    }
+
+    .calc__title-2 {
+        margin: 20px 0 20px;
+    }
+
+    .footer__logo {
+        align-items: flex-start;
+    }
+
+    .footer__links {
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(4, auto);
+        row-gap: 10px;
+        justify-content: center;
+    }
+
+    .footer__socials-telegram {
+        margin: 0 4px 0 6px;
+    }
+
+    .footer__links {
+        align-items: start;
+    }
+
+    /* =============================== sec.beware */
+
+    .beware__risks {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .beware__risk-double {
+        grid-column: 2/-1;
+        display: block;
+        position: relative;
+    }
+
+    .beware__risk-text {
+        padding: 0 9px 7px 8px;
+    }
+
+    .beware__risk-text h4 {
+        font-size: 13px;
+    }
+
+    .risk-text4 {
+        margin-top: 160px;
+    }
+
+    .risk-img3 {
+        scale: 1.08;
+        top: 0;
+        left: 0;
+        width: 78%;
+    }
+
+    .risk-img4 {
+        scale: 0.88;
+        position: absolute;
+        top: -10%;
+    }
+
+    .beware__risk-blue {
+        grid-column: 1/-1;
+    }
+
+    .beware__risk-blue p {
+        font-size: 11px;
+        font-weight: 600;
+        line-height: 1.5;
+        margin: 4px 0 8px;
+    }
+
+    /* ================================= sect.about */
+
+    .about__benefit-text {
+        padding: 0 12px 12px 6px;
+        margin-top: 75%;
+    }
+
+    .benefit-text1 h4 {
+        font-size: 14px;
+    }
+
+    .benefit-svg2 {
+        scale: .4;
+        right: -58%;
+        top: -18%;
+    }
+
+    .about__consult {
+        border-radius: 30px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about__consult-input,
+    .about__consult .yellow-button {
+        margin: 12px 0 5px;
+    }
+
+    .about__consult-input {
+        padding: 14px 37px 14px 19px;
+    }
+
+    .about__consult button {
+        padding: 26px 55px;
+    }
+
+    /* =========================== services */
+
+    .service__name {
+        font-size: 10px;
+    }
+
+    .service__price {
+        font-size: 13px;
+    }
+
+    .services__order {
+        padding: 45px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .services__order-title,
+    .services__order-title span {
+        font-size: 15px;
+    }
+
+    .services__order-button {
+        padding: 15px 20px;
+        margin: 17px auto 0;
+        font-size: 12px;
+    }
+
+    /* ===================================== pricelist */
+
+    .pricelist__form {
+        margin: 19px auto 30px;
+    }
+
+    .pricelist__title {
+        text-align: center;
+    }
+
+    .pricelist__title-2 {
+        text-align: center;
+    }
+
+    .pricelist__grid {
+        margin: 0 auto;
+    }
+
+    .pricelist-ico {
+        max-width: 15vw;
+        top: 16%;
+        left: 4vw;
+    }
+
+    /* =================================== examples */
+    
+    .main__examples {
+        padding-top: 15px;
+        background: #F2F9FF;
+    }
+
+    .title-alternative {
+        font-size: 18px;
+    }
+
+    .title-alternative-grey {
+        font-size: 15px;
+        margin: 8px auto 16px;
+    }
+
+    .example__controls-item {
+        padding: 18px 0;
+    }
+    .example__controls-link {
+        padding: 18px 18px;
+        font-size: 11px;
+    }
+
+    
+    .example__tab-hint{
+        visibility: hidden;
+    }
+    
+    .example__tab-hint::before {
+        visibility: visible; 
+    }
+
+    .example__tab-hint:hover {
+        visibility: visible;
+    }
+
+    /* =============================== results */
+
+    .slide {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .slide__img {
+        width: 80vw;
+    }
+
+    .slide__img img {
+        height: unset;
+    }
+
+    .slide__text {
+        margin: 5px 0;
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .slide__info {
+        text-align: center;
+    }
+
+    .next-custom {
+        transform: translateX(24%);
+    }
+
+    .prev-custom {
+        transform: translateX(-24%);
+    }
+
+    .next-custom,
+    .prev-custom {
+        top: 55%;
+        width: 34px;
+        aspect-ratio: 1 / 1;
+    }
+
+    /* ========================================= inventory */
+
+    .inventory__item {
+        max-width: 97px;
+    }
+
+    .inventory__item img {
+        max-width: 55px;
+        max-height: 55px;
+    }
+
+    .inventory__item h6 {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .inventory__item p {
+        display: none;
+    }
+
+    .inventory__form {
+        max-width: 40vw;
+        margin: 0 auto 10px;
+    }
+
+    .inventory__tel {
+        padding: 14px 0;
+        margin-bottom: 4px;
+        width: 100%;
+    }
+
+    .inventory__tel::placeholder {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .inventory__button {
+        font-size: 10px;
+        padding: 14px 0;
+    }
+
+    /* ============================= present */
+
+    .main__present {
+        min-height: 505px;
+    }
+
+    .present__inner {
+        width: 100%;
+    }
+
+    .present__title {
+        margin: 10vw auto 9px;
+    }
+
+    .present__item {
+        margin: 0 auto;
+    }
+
+    .present__item img {
+        max-width: 50px;
+        max-height: 50px;
+    }
+
+    .present__item:nth-child(3) {
+        margin: 10px auto;
+    }
+
+    .present__box {
+        display: none;
+    }
+
+    /* ==================================== header--page */
+
+    .header--page__links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header--page__wt a {
+        padding: 10px;
+    }
+
+    .header--page__wt-info {
+        max-width: 90%;
+    }
+
+    .header--page__return {
+        margin-top: 120px;
+        padding: 23px 0;
+    }
+
+    .header--page__return a {
+        padding: 18px 21px;
+    }
+}
+
+@media (max-width: 400px) {
+    .header__blue-button,
+    .header__yellow-button {
+        padding: 10px 16px;
+        font-size: 10px;
+    }
+
+    /* ============================ sect.about */
+
+    .about__benefits {
+        gap: 6px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .about__benefit-img {
+        width: 67%;
+        left: 50%;
+        transform: translate(-50%, -2%);
+    }
+
+    .benefit-svg2 {
+        display: none;
+    }
+
+    .benefit-img2 {
+        width: 55%;
+    }
+
+    .benefit-img3 {
+        width: 45%;
+    }
+
+    .about__benefit-text {
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 55%;
+    }
+
+    /* =============================== kinds */
+
+    .kinds__grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .grid-kind {
+        padding: 1vw 12vw 1vw;
+    }
+
+    /* ======================= services */
+
+    .services__order {
+        padding: 10px 15px;
+    }
+
+    /* ========================================== examples */
+
+    .example__controls-item {
+        padding: 14px 0;
+    }
+
+    .example__controls-link {
+        padding: 14px 12px;
+        font-size: 9px;
+    }
+
+    /* ============================= results */
+
+    .slide__title {
+        font-size: 16px;
+    }
+
+    .slide__info {
+        font-size: 12px;
+    }
+
+    /* ================================ inventory */
+
+    .inventory__item {
+        max-width: 80px;
+    }
+
+    .inventory__item:nth-child(2) {
+        max-width: 97px;
+    }
+
+    /* ================================ accordion */
+
+    .accordion__item-title {
+        font-size: 13px;
+    }
+}
